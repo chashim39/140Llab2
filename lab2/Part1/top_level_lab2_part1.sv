@@ -49,7 +49,7 @@ module top_level_lab2_part1(
    );
 
    // AM/PM state  --  runs at 1/12 sec or 1/12hrs
-   regce TPMct(.out(TPm), .inp(Hmax), .en(TPmen),
+   regce TPMct(.out(TPm), .inp(!TPm), .en(TPmen),
                .clk(Pulse), .rst(Reset));
 
 
@@ -64,7 +64,7 @@ module top_level_lab2_part1(
   ); 
 
    // alarm AM/PM state 
-   regce APMReg(.out(APm), .inp(APm), .en(APmen),
+   regce APMReg(.out(APm), .inp(!APm), .en(APmen),
                .clk(Pulse), .rst(Reset));
 
 
@@ -76,13 +76,13 @@ module top_level_lab2_part1(
    );
 
    lcd_int Mdisp(
-    .bin_in    (TMin) ,
+    .bin_in    (Min) ,
         .Segment1  (M1disp),
         .Segment0  (M0disp)
         );
 
   lcd_int Hdisp(
-    .bin_in    (THrs),
+    .bin_in    (Hrs),
         .Segment1  (H1disp),
         .Segment0  (H0disp)
         );
@@ -90,18 +90,45 @@ module top_level_lab2_part1(
    // counter enable control logic
    // create some logic for the various *en signals (e.g. TMen)
   always_comb begin
-     Tmen <= Smax;
-     THen <= Mmax;
-     TPmen <= Hmax;
+    if (Timeset) begin
+      TMen <= Minadv;
+      THen <= Hrsadv;
+      TPmen <= (Hmax & Hrsadv);
+    end else begin
+      TMen <= Smax;
+      THen <= (Mmax & Smax);
+      TPmen <= (Hmax & Mmax & Smax);
+    end
 
-     Amen <= Alarmset;
-     AHen <= AMmax;
-     APmen <= AHmax;
+    if (Alarmset) begin
+      AMen <= Minadv;
+      AHen <= Hrsadv;
+      APmen <= (Hrsadv & AHmax);
+    end else begin
+      AMen <= AMen;
+      AHen <= AHen;
+      APmen <= APmen;
+    end
+
   end
    
    // display select logic (decide what to send to the seven segment outputs) 
-   always_comb begin
-     //idfk =)
+  always_comb begin
+    if (Alarmset) begin
+      Min <= AMin;
+      if (AHrs == 0) begin
+        Hrs <= 12;
+      end else begin
+        Hrs <= AHrs;
+      end
+    end else begin
+      Min <= TMin;
+      if (THrs == 0) begin
+        Hrs <= 12;
+      end else begin
+        Hrs <= THrs;
+      end
+    end 
    end 
    alarm a1(
            .tmin(TMin), .amin(AMin), .thrs(THrs), .ahrs(AHrs), .tpm(TPm), .apm(APm), .buzz(Buzz1)
@@ -110,9 +137,15 @@ module top_level_lab2_part1(
   
    // generate AMorPM signal (what are the sources for this LED?)/
    always_comb begin
-     AMorPM <= TPm;
-     Buzz <= Buzz1;
+     if (!Alarmset) begin
+      AMorPM <= TPm;
+     end else begin
+      AMorPM <= APm;
+     end
    end
+
+   assign Buzz = Alarmon ? (Buzz | Buzz1) : 0;
+
  
 
 endmodule
