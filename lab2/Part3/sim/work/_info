@@ -1,0 +1,481 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/chris/Desktop/CSE 140L/lab2/Part3/sim
+valarm
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1676336397
+!i10b 1
+!s100 0Tmk1=H3ebi^MRA8;gdmA2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IaWeTPc^d8Sme]Q0JX@eN@0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1676078121
+8../alarm.sv
+F../alarm.sv
+!i122 1
+L0 4 23
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1676336397.000000
+!s107 ..\lab2_display_tb.sv|../top_level_lab2_part3.sv|../regce.sv|../lcd_int3.sv|../lab2_part3_tb.sv|../lab2_display_tb.sv|../display_2_3_tb.sv|../ct_mod_N.sv|../ct_mod_D.sv|../alarm.sv|
+Z7 !s90 -sv|-nolock|../alarm.sv|../ct_mod_D.sv|../ct_mod_N.sv|../display_2_3_tb.sv|../lab2_display_tb.sv|../lab2_part3_tb.sv|../lcd_int3.sv|../regce.sv|../top_level_lab2_part3.sv|
+!i113 1
+Z8 o-sv -nolock
+Z9 tCvgOpt 0
+vct_mod_D
+R1
+R2
+!i10b 1
+!s100 Cl>X<X[K_1a<_I>a<1J@O2
+R3
+Iai@AC@i94=ReK@ZF`zZmg1
+R4
+S1
+R0
+Z10 w1675235345
+8../ct_mod_D.sv
+F../ct_mod_D.sv
+!i122 1
+L0 4 22
+R5
+r1
+!s85 0
+31
+R6
+Z11 !s107 ..\lab2_display_tb.sv|../top_level_lab2_part3.sv|../regce.sv|../lcd_int3.sv|../lab2_part3_tb.sv|../lab2_display_tb.sv|../display_2_3_tb.sv|../ct_mod_N.sv|../ct_mod_D.sv|../alarm.sv|
+R7
+!i113 1
+R8
+R9
+nct_mod_@d
+vct_mod_N
+R1
+R2
+!i10b 1
+!s100 QIDAAiBFDm@bS[3>z8>^O2
+R3
+II:GiSgg>j4>iaYTlJf?Y91
+R4
+S1
+R0
+R10
+8../ct_mod_N.sv
+F../ct_mod_N.sv
+!i122 1
+L0 4 16
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+nct_mod_@n
+vdayEncoder
+R1
+R2
+!i10b 1
+!s100 d^`@PokIhVj5dbzJa7HoD2
+R3
+I?H1`PRS:j546ZZPH2TzcL2
+R4
+S1
+R0
+Z12 w1676336392
+Z13 8../top_level_lab2_part3.sv
+Z14 F../top_level_lab2_part3.sv
+!i122 1
+L0 190 17
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+nday@encoder
+Xdisplay_2_3_tb_sv_unit
+R1
+R2
+V4Z0OU53]=e:PM<EM;IXRB3
+r1
+!s85 0
+!i10b 1
+!s100 z3fJ0Td4<F23h54A^<g@J3
+I4Z0OU53]=e:PM<EM;IXRB3
+!i103 1
+S1
+R0
+R10
+8../display_2_3_tb.sv
+F../display_2_3_tb.sv
+!i122 1
+Z15 L0 5 0
+R5
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+vdisplayEncoder
+R1
+R2
+!i10b 1
+!s100 ?FH>EVQ_1PaKWULW]2GDR3
+R3
+I<9YA:57@:O][k3DGealzD1
+R4
+S1
+R0
+R12
+R13
+R14
+!i122 1
+L0 224 15
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+ndisplay@encoder
+vkeyboard_interface
+R2
+!i10b 1
+!s100 XgUdC=zD=>[_VWOVV?=XP3
+R3
+ICjY@KfX1nze;aI52@gmYB1
+R4
+R0
+R10
+8../tb/keyboard_interface.v
+F../tb/keyboard_interface.v
+!i122 0
+L0 13 361
+R5
+r1
+!s85 0
+31
+R6
+Z16 !s107 ../tb/tb.v|../tb/ps2_data_out.v|../tb/ps2_command_in.v|../tb/keyboard_interface.v|
+Z17 !s90 -nolock|../tb/keyboard_interface.v|../tb/ps2_command_in.v|../tb/ps2_data_out.v|../tb/tb.v|
+!i113 1
+Z18 o-nolock
+R9
+Xlab2_display_tb_sv_unit
+R1
+R2
+VbJ?RBT2`YG2d8cHaBRT7b2
+r1
+!s85 0
+!i10b 1
+!s100 F<Y45PA2N5E`@c6JM]^MM1
+IbJ?RBT2`YG2d8cHaBRT7b2
+!i103 1
+S1
+R0
+R10
+8../lab2_display_tb.sv
+F../lab2_display_tb.sv
+!i122 1
+R15
+R5
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+vlab2_part3_tb
+R1
+DXx4 work 21 lab2_part3_tb_sv_unit 0 22 kf8ZEQ11cYdBN]O5N?8X20
+R2
+R4
+r1
+!s85 0
+!i10b 1
+!s100 eP2KgWEeIT>FM?6chJVnP2
+Ic`:ooXk=1kV75[b@BN3XA2
+!s105 lab2_part3_tb_sv_unit
+S1
+R0
+R10
+Z19 8../lab2_part3_tb.sv
+Z20 F../lab2_part3_tb.sv
+!i122 1
+L0 3 123
+R5
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+Xlab2_part3_tb_sv_unit
+R1
+R2
+Vkf8ZEQ11cYdBN]O5N?8X20
+r1
+!s85 0
+!i10b 1
+!s100 8^1hOP@X1W<ZBXJj_<H=E0
+Ikf8ZEQ11cYdBN]O5N?8X20
+!i103 1
+S1
+R0
+R10
+R19
+R20
+F..\lab2_display_tb.sv
+!i122 1
+R15
+R5
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+vlcd_int
+R1
+R2
+!i10b 1
+!s100 GM_=IB3>TU>PC>HQ]R:7;2
+R3
+IjT6?U`b@8APTfW]:X@GE63
+R4
+S1
+R0
+R10
+8../lcd_int3.sv
+F../lcd_int3.sv
+!i122 1
+L0 9 38
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+vps2_command_in
+R2
+!i10b 1
+!s100 ^c?<J@ZFUF[^inb^N5VN91
+R3
+IcEKlfifd?3RK9m2=EkSV^3
+R4
+R0
+R10
+8../tb/ps2_command_in.v
+F../tb/ps2_command_in.v
+!i122 0
+L0 9 125
+R5
+r1
+!s85 0
+31
+R6
+R16
+R17
+!i113 1
+R18
+R9
+vps2_data_out
+R2
+!i10b 1
+!s100 7Zo2>_SoDfmLJ4cBe]>Hj3
+R3
+I^HCB``Xe4L8J9R>T6ZAeI3
+R4
+R0
+R10
+8../tb/ps2_data_out.v
+F../tb/ps2_data_out.v
+!i122 0
+L0 9 131
+R5
+r1
+!s85 0
+31
+R6
+R16
+R17
+!i113 1
+R18
+R9
+vregce
+R1
+R2
+!i10b 1
+!s100 [RTlgDZA^cEX_:IhIO_d=3
+R3
+Il55eBghd<i`YlW0;_2Uof0
+R4
+S1
+R0
+R10
+8../regce.sv
+F../regce.sv
+!i122 1
+L0 3 13
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+vsecondEncoder
+R1
+R2
+!i10b 1
+!s100 zXl1Pa6oRNZ=BWA=V?^Ya0
+R3
+IF?0a<ciZ7MDka4z:lMN1m0
+R4
+S1
+R0
+R12
+R13
+R14
+!i122 1
+L0 208 15
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9
+nsecond@encoder
+vslowclk
+R2
+!i10b 1
+!s100 ?>LQl8MB^cfzE8Sc_kHKS0
+R3
+I1nFn=5j<g=EhQdbo4H8dP0
+R4
+R0
+R10
+Z21 8../tb/tb.v
+Z22 F../tb/tb.v
+!i122 0
+L0 32 25
+R5
+r1
+!s85 0
+31
+R6
+R16
+R17
+!i113 1
+R18
+R9
+vslowrst
+R2
+!i10b 1
+!s100 ZgHB^`SOcXLNUXRM=0B5m0
+R3
+IB>F<B7WNR1bWW9HLjPMFY3
+R4
+R0
+R10
+R21
+R22
+!i122 0
+L0 13 18
+R5
+r1
+!s85 0
+31
+R6
+R16
+R17
+!i113 1
+R18
+R9
+vtb
+R2
+!i10b 1
+!s100 `a:ZzG7XneS7_n>CkAPIU3
+R3
+Idz=jee]RMI>Hb2<OEA;i:0
+R4
+R0
+R10
+R21
+R22
+!i122 0
+L0 59 97
+R5
+r1
+!s85 0
+31
+R6
+R16
+R17
+!i113 1
+R18
+R9
+vtop_level_lab2_part3
+R1
+R2
+!i10b 1
+!s100 7:^>bKQYMCQFd`64B5<YD0
+R3
+IQ1:>aghT1Cm:BUOmFXM8F1
+R4
+S1
+R0
+R12
+R13
+R14
+!i122 1
+L0 4 185
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8
+R9

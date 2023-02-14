@@ -16,4 +16,11 @@ module alarm(
     not <=
     buzz = ( condition for matching min's hours and pm/am )
     */
+    always_comb begin
+      if ((tmin == amin) && (thrs == ahrs) && (tpm == apm)) begin
+        buzz = 1;
+      end else begin
+        buzz = 0;
+      end
+    end
 endmodule

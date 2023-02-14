@@ -1,0 +1,352 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/chris/Desktop/CSE 140L/lab2/Part1/sim
+valarm
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1676074585
+!i10b 1
+!s100 0Tmk1=H3ebi^MRA8;gdmA2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IaWeTPc^d8Sme]Q0JX@eN@0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1675672532
+8../alarm.sv
+F../alarm.sv
+!i122 1
+L0 4 23
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1676074585.000000
+!s107 ..\lab2_display_tb.sv|../top_level_lab2_part1.sv|../regce.sv|../lcd_int3.sv|../lab2_part1_tb.sv|../lab2_display_tb.sv|../ct_mod_N.sv|../alarm.sv|
+Z7 !s90 -sv|-nolock|../alarm.sv|../ct_mod_N.sv|../lab2_display_tb.sv|../lab2_part1_tb.sv|../lcd_int3.sv|../regce.sv|../top_level_lab2_part1.sv|
+!i113 1
+Z8 o-sv -nolock
+Z9 tCvgOpt 0
+vct_mod_N
+R1
+R2
+!i10b 1
+!s100 F0[VHl5OSeBF6TAI_]CKF3
+R3
+IlC2k]_N9LaLHibXGSb]3J3
+R4
+S1
+R0
+w1675733898
+8../ct_mod_N.sv
+F../ct_mod_N.sv
+!i122 1
+L0 8 16
+R5
+r1
+!s85 0
+31
+R6
+Z10 !s107 ..\lab2_display_tb.sv|../top_level_lab2_part1.sv|../regce.sv|../lcd_int3.sv|../lab2_part1_tb.sv|../lab2_display_tb.sv|../ct_mod_N.sv|../alarm.sv|
+R7
+!i113 1
+R8
+R9
+nct_mod_@n
+vkeyboard_interface
+R2
+!i10b 1
+!s100 XgUdC=zD=>[_VWOVV?=XP3
+R3
+ICjY@KfX1nze;aI52@gmYB1
+R4
+R0
+Z11 w1675235345
+8../tb/keyboard_interface.v
+F../tb/keyboard_interface.v
+!i122 0
+L0 13 361
+R5
+r1
+!s85 0
+31
+R6
+Z12 !s107 ../tb/tb.v|../tb/ps2_data_out.v|../tb/ps2_command_in.v|../tb/keyboard_interface.v|
+Z13 !s90 -nolock|../tb/keyboard_interface.v|../tb/ps2_command_in.v|../tb/ps2_data_out.v|../tb/tb.v|
+!i113 1
+Z14 o-nolock
+R9
+Xlab2_display_tb_sv_unit
+R1
+R2
+VXzU<kWRWLT6ehL^JLD_nB1
+r1
+!s85 0
+!i10b 1
+!s100 keN5fe7`jRa0_j3<Qlji_3
+IXzU<kWRWLT6ehL^JLD_nB1
+!i103 1
+S1
+R0
+R11
+8../lab2_display_tb.sv
+F../lab2_display_tb.sv
+!i122 1
+Z15 L0 5 0
+R5
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+vlab2_part1_tb
+R1
+DXx4 work 21 lab2_part1_tb_sv_unit 0 22 `E6FfV8f9CLHI_KjCkdk_2
+R2
+R4
+r1
+!s85 0
+!i10b 1
+!s100 ^gdd7E4iQabj@JXB>eD7S2
+IAgZUl0nJ53?HVG8l]Y8La0
+!s105 lab2_part1_tb_sv_unit
+S1
+R0
+R11
+Z16 8../lab2_part1_tb.sv
+Z17 F../lab2_part1_tb.sv
+!i122 1
+L0 7 92
+R5
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+Xlab2_part1_tb_sv_unit
+R1
+R2
+V`E6FfV8f9CLHI_KjCkdk_2
+r1
+!s85 0
+!i10b 1
+!s100 9L^9SAGjMHm@WFN6KGH5A3
+I`E6FfV8f9CLHI_KjCkdk_2
+!i103 1
+S1
+R0
+R11
+R16
+R17
+F..\lab2_display_tb.sv
+!i122 1
+R15
+R5
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+vlcd_int
+R1
+R2
+!i10b 1
+!s100 GM_=IB3>TU>PC>HQ]R:7;2
+R3
+IjT6?U`b@8APTfW]:X@GE63
+R4
+S1
+R0
+R11
+8../lcd_int3.sv
+F../lcd_int3.sv
+!i122 1
+L0 9 38
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+vps2_command_in
+R2
+!i10b 1
+!s100 ^c?<J@ZFUF[^inb^N5VN91
+R3
+IcEKlfifd?3RK9m2=EkSV^3
+R4
+R0
+R11
+8../tb/ps2_command_in.v
+F../tb/ps2_command_in.v
+!i122 0
+L0 9 125
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R14
+R9
+vps2_data_out
+R2
+!i10b 1
+!s100 7Zo2>_SoDfmLJ4cBe]>Hj3
+R3
+I^HCB``Xe4L8J9R>T6ZAeI3
+R4
+R0
+R11
+8../tb/ps2_data_out.v
+F../tb/ps2_data_out.v
+!i122 0
+L0 9 131
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R14
+R9
+vregce
+R1
+R2
+!i10b 1
+!s100 [RTlgDZA^cEX_:IhIO_d=3
+R3
+Il55eBghd<i`YlW0;_2Uof0
+R4
+S1
+R0
+R11
+8../regce.sv
+F../regce.sv
+!i122 1
+L0 3 13
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+vslowclk
+R2
+!i10b 1
+!s100 zZ>WR1XgR4mZ`18L[_bRM3
+R3
+I3:eTcNV5b:aSYgi@`;d850
+R4
+R0
+R11
+Z18 8../tb/tb.v
+Z19 F../tb/tb.v
+!i122 0
+L0 33 25
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R14
+R9
+vslowrst
+R2
+!i10b 1
+!s100 ZgHB^`SOcXLNUXRM=0B5m0
+R3
+IB>F<B7WNR1bWW9HLjPMFY3
+R4
+R0
+R11
+R18
+R19
+!i122 0
+L0 13 18
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R14
+R9
+vtb
+R2
+!i10b 1
+!s100 VbW]o30jfDTGk:W^ac[ld3
+R3
+IA`aRMz76YlI>[50V0LK^U2
+R4
+R0
+R11
+R18
+R19
+!i122 0
+L0 60 98
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R14
+R9
+vtop_level_lab2_part1
+R1
+R2
+!i10b 1
+!s100 C6Zd6QjSRkN5IZQ2od?z`0
+R3
+IKA^fC5HH0mmVaC`J7o36W1
+R4
+S1
+R0
+w1675743061
+8../top_level_lab2_part1.sv
+F../top_level_lab2_part1.sv
+!i122 1
+L0 6 146
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
